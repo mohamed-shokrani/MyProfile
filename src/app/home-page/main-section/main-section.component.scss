@@ -1,0 +1,23 @@
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;//we can not make align items with out make display flex first
+    background: url(../../../assets/calm.jpg) no-repeat;
+    background-size: cover;
+}
+.main h2{
+    color: white;
+    padding-left: 10px;
+    font-size: 1.2em;
+
+}
+.main span{
+    //span is inline element we can not make /give it margin top or button
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(0, 172, 115);
+    font-weight: 800;
+    font-size: 3em;
+}
